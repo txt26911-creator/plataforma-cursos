@@ -1,0 +1,30 @@
+$azul: rgb(7, 61, 116) !default;
+
+.navbar-azul{
+  background-color: $azul !important;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+// Definimos fuente
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('../Fonts/Gilroy-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('../Fonts/Gilroy-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Light', sans-serif;
+}
+

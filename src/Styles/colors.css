@@ -1,0 +1,27 @@
+.navbar-azul {
+  background-color: rgb(7, 61, 116) !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../Fonts/Gilroy-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../Fonts/Gilroy-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Light", sans-serif;
+}/*# sourceMappingURL=colors.css.map */
